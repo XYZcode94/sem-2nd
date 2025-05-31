@@ -8,6 +8,7 @@ body {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
+  background: url(/Game\ Developer\ Resume\ Website\ in\ Black\ and\ White\ Simple\ and\ Minimal\ Style.png);
 }
 header {
   background: #fff;
@@ -191,4 +192,255 @@ footer {
   font-size: 14px;
   color: #666;
   line-height: 1.6;
+}
+
+
+/* Portfolio Section */
+#portfolio {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.portfolio-filters {
+  margin-bottom: 30px;
+}
+.filter-btn {
+  padding: 10px 20px;
+  margin: 0 10px 10px 0;
+  border: none;
+  background-color: #e0e0e0;
+  color: #333;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #3366cc;
+  color: #fff;
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.portfolio-item {
+  overflow: hidden;
+  border-radius: 12px;
+}
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.portfolio-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Work Process Section */
+#work-process {
+  background-color: #f9f9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.process-step {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+.process-step:hover {
+  transform: translateY(-5px);
+}
+.process-step i {
+  font-size: 36px;
+  color: #3366cc;
+  margin-bottom: 20px;
+}
+.process-step h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.process-step p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+/* Team Section */
+#team {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.team-member {
+  background: #f4f6fc;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.team-member:hover {
+  transform: translateY(-5px);
+}
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.team-member h4 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+.team-member p {
+  font-size: 14px;
+  color: #666;
+}
+.team-socials {
+  margin-top: 15px;
+}
+.team-socials a {
+  color: #3366cc;
+  margin: 0 8px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+.team-socials a:hover {
+  color: #000;
+}
+
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #f4f6fc;
+  padding: 60px 20px;
+  text-align: center;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.testimonial-card {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+.testimonial-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.testimonial-card p {
+  font-style: italic;
+  color: #444;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.testimonial-card h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.testimonial-card span {
+  font-size: 13px;
+  color: #777;
+}
+
+
+/* Pricing Section */
+#pricing {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.pricing-card {
+  background: #f4f6fc;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+.pricing-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+.pricing-card .price {
+  font-size: 32px;
+  color: #3366cc;
+  margin: 10px 0 20px;
+}
+.pricing-card .price span {
+  font-size: 16px;
+  color: #777;
+}
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.pricing-card ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+.pricing-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3366cc;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.pricing-card .btn:hover {
+  background-color: #264aa3;
+}
+.featured {
+  background: #3366cc;
+  color: #fff;
+}
+.featured .price,
+.featured ul li,
+.featured h3 {
+  color: #fff;
+}
+.featured .btn {
+  background-color: #fff;
+  color: #3366cc;
+}
+.featured .btn:hover {
+  background-color: #e6e6e6;
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Multimax Creative Agency</title>
+  <title>College services Page</title>
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 
@@ -13,7 +13,7 @@
   <!-- Header -->
   <header>
     <div class="container">
-      <h1 class="logo">M<span>+</span></h1>
+      <h1 class="logo"><span><img src="logo.png" alt="logo"></span></h1>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -148,36 +148,197 @@
 </section>
 
 
-  <!-- Team Section -->
-  <section id="team">
-    <div class="container">
-      <h2>Our Team</h2>
-      <div class="team-grid">
-        <div class="team-member">
-          <img src="person1.jpg" alt="Person" />
-          <h4>John Doe</h4>
-          <p>Developer</p>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- Portfolio Section -->
+<section id="portfolio">
+  <div class="container">
+    <h2 class="section-title">Portfolio</h2>
+    <p class="section-subtitle">Take a look at some of our recent works across different categories.</p>
 
-  <!-- Pricing Section -->
-  <section id="pricing">
-    <div class="container">
-      <h2>Pricing Table</h2>
-      <div class="pricing-table">
-        <div class="plan">
-          <h3>Free</h3>
-          <p>$0/mo</p>
+    <!-- Portfolio Filter Buttons -->
+    <div class="portfolio-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="brand">Brand</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="graphic">Graphic</button>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid">
+      <div class="portfolio-item brand">
+        <img src="assets/portfolio1.jpg" alt="Brand Project">
+      </div>
+      <div class="portfolio-item design">
+        <img src="assets/portfolio2.jpg" alt="Design Project">
+      </div>
+      <div class="portfolio-item graphic">
+        <img src="assets/portfolio3.jpg" alt="Graphic Project">
+      </div>
+      <div class="portfolio-item brand">
+        <img src="assets/portfolio4.jpg" alt="Branding">
+      </div>
+      <div class="portfolio-item design">
+        <img src="assets/portfolio5.jpg" alt="Designing">
+      </div>
+      <div class="portfolio-item graphic">
+        <img src="assets/portfolio6.jpg" alt="Graphics">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Work Process Section -->
+<section id="work-process">
+  <div class="container">
+    <h2 class="section-title">Our Work Process</h2>
+    <p class="section-subtitle">We follow a clear and effective workflow to deliver quality results.</p>
+    
+    <div class="process-steps">
+      <div class="process-step">
+        <i class="fas fa-pencil-ruler"></i>
+        <h4>Planning</h4>
+        <p>Understand client needs and outline a project strategy.</p>
+      </div>
+      <div class="process-step">
+        <i class="fas fa-object-group"></i>
+        <h4>Designing</h4>
+        <p>Create appealing and user-friendly UI/UX concepts.</p>
+      </div>
+      <div class="process-step">
+        <i class="fas fa-code"></i>
+        <h4>Development</h4>
+        <p>Transform designs into functional digital products.</p>
+      </div>
+      <div class="process-step">
+        <i class="fas fa-paper-plane"></i>
+        <h4>Delivery</h4>
+        <p>Test, deploy, and launch the final product to the client.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Team Section -->
+<section id="team">
+  <div class="container">
+    <h2 class="section-title">Our Team</h2>
+    <p class="section-subtitle">Meet the experts who make everything possible.</p>
+
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="assets/team1.jpg" alt="Team Member 1">
+        <h4>John Doe</h4>
+        <p>Founder & CEO</p>
+        <div class="team-socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
         </div>
-        <div class="plan featured">
-          <h3>Premium</h3>
-          <p>$30/mo</p>
+      </div>
+      <div class="team-member">
+        <img src="assets/team2.jpg" alt="Team Member 2">
+        <h4>Jane Smith</h4>
+        <p>Lead Designer</p>
+        <div class="team-socials">
+          <a href="#"><i class="fab fa-behance"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="assets/team3.jpg" alt="Team Member 3">
+        <h4>Mike Wilson</h4>
+        <p>Developer</p>
+        <div class="team-socials">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-stack-overflow"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+  <div class="container">
+    <h2 class="section-title">What Clients Say</h2>
+    <p class="section-subtitle">Feedback from our valued customers</p>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img src="assets/client1.jpg" alt="Client 1">
+        <p>"The team delivered outstanding results beyond expectations. Their attention to detail is amazing!"</p>
+        <h4>Emily Johnson</h4>
+        <span>Marketing Manager</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="assets/client2.jpg" alt="Client 2">
+        <p>"Professional, responsive, and innovative. Highly recommended for digital projects!"</p>
+        <h4>David Lee</h4>
+        <span>Product Owner</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="assets/client3.jpg" alt="Client 3">
+        <p>"They turned our vision into reality. We loved the collaborative experience and the final product!"</p>
+        <h4>Sophia Patel</h4>
+        <span>Startup Founder</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Pricing Section -->
+<section id="pricing">
+  <div class="container">
+    <h2 class="section-title">Pricing Plans</h2>
+    <p class="section-subtitle">Choose the plan that suits your needs</p>
+
+    <div class="pricing-grid">
+      <!-- Basic Plan -->
+      <div class="pricing-card">
+        <h3>Basic</h3>
+        <p class="price">$19<span>/mo</span></p>
+        <ul>
+          <li>5 Projects</li>
+          <li>Basic Support</li>
+          <li>Access to Updates</li>
+          <li>Limited Storage</li>
+        </ul>
+        <a href="#" class="btn">Choose Plan</a>
+      </div>
+
+      <!-- Standard Plan -->
+      <div class="pricing-card featured">
+        <h3>Standard</h3>
+        <p class="price">$49<span>/mo</span></p>
+        <ul>
+          <li>15 Projects</li>
+          <li>Priority Support</li>
+          <li>All Updates</li>
+          <li>500GB Storage</li>
+        </ul>
+        <a href="#" class="btn">Choose Plan</a>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="pricing-card">
+        <h3>Premium</h3>
+        <p class="price">$99<span>/mo</span></p>
+        <ul>
+          <li>Unlimited Projects</li>
+          <li>24/7 Support</li>
+          <li>Lifetime Updates</li>
+          <li>1TB Storage</li>
+        </ul>
+        <a href="#" class="btn">Choose Plan</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Blog Section -->
   <section id="blog">
@@ -216,6 +377,7 @@
       <p>&copy; 2025 Multimax Agency. All rights reserved.</p>
     </div>
   </footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
